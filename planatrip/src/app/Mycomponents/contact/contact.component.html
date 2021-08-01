@@ -1,0 +1,119 @@
+<div class="bg-secondary">
+
+  <div class="container">
+
+  <button type="button" data-bs-toggle="modal" class="btn btn-primary mx-4 my-4 btn-lg " data-bs-target="#feedbackModal">Feedback</button>
+  <!--Division for Modal-->
+  <div class="container">
+    <div id="feedbackModal" class="modal fade" role="dialog">
+      <!--Modal-->
+      <div class="modal-dialog">
+        <!--Modal Content-->
+        <div class="modal-content">
+        <!-- Modal Header-->
+          <div class="modal-header">
+            <h3>Feedback Request</h3>
+            <!--Close/Cross Button--> <button type="button" class="close" data-dismiss="modal" style="color: white;">&times;</button>
+          </div> <!-- Modal Body-->
+          <div class="modal-body text-center"> <i class="far fa-file-alt fa-4x mb-3 animated rotateIn icon1"></i>
+            <h3>Your opinion matters</h3>
+            <h5>Help us improve our product? <strong>Give us your feedback.</strong></h5>
+            <hr>
+            <h6>Your Rating</h6>
+          </div> <!-- Radio Buttons for Rating-->
+          <div class="form-check mb-4"> <input name="feedback" type="radio"> <label class="ml-3">Very good</label> </div>
+              <div class="form-check mb-4"> <input name="feedback" type="radio"> <label class="ml-3">Good</label> </div>
+              <div class="form-check mb-4"> <input name="feedback" type="radio"> <label class="ml-3">Mediocre</label> </div>
+              <div class="form-check mb-4"> <input name="feedback" type="radio"> <label class="ml-3">Bad</label> </div>
+            <div class="form-check mb-4"> <input name="feedback" type="radio"> <label class="ml-3">Very Bad</label> </div>
+            <!--Text Message-->
+            <div class="text-center">
+              <h4>What could we improve?</h4>
+            </div> <textarea type="textarea" placeholder="Your Message" rows="3"></textarea> <!-- Modal Footer-->
+            <div class="modal-footer"> <a href="" class="btn btn-primary">Send <i class="fa fa-paper-plane"></i> </a> <a href="" class="btn btn-outline-primary" data-dismiss="modal">Cancel</a> </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+    <div class="row" id="contatti">
+      <div class="container mt-5" >
+
+        <div class="row" style="height:550px;">
+          <div class="col-md-6 maps" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.3241329942625!2d73.2845888!3d23.4487699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395df024688fae47%3A0x749d06605c6afd77!2sSimran%20park!5e0!3m2!1sen!2sin!4v1625033834130!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="col-md-6">
+            <h2 class="text-uppercase mt-3 font-weight-bold text-white">Contact</h2>
+            <form method="POST" action="/post-data">
+              <div class="row">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="text" class="form-control mt-2" placeholder="Name/Company" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="text" class="form-control mt-2" placeholder="Country" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="email" class="form-control mt-2" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <input type="number" class="form-control mt-2" placeholder="Telephone" required>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Insert Text" rows="3" required></textarea>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                  <label class="form-check-label" for="invalidCheck2">
+                  Accept Conditions
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+              <button class="btn btn-light" type="submit">Send</button>
+            </div>
+          </div>
+        </form>
+        <a href="/view-data">View data</a>
+        <div class="text-white">
+          <h2 class="text-uppercase mt-4 font-weight-bold">Where are we</h2>
+
+        <i class="fas fa-phone mt-3"></i> <a href="tel:+">(+91) 823 892 1291 </a><br>
+        <i class="fas fa-phone mt-3"></i> <a href="tel:+">(+91) 991 383 2220</a><br>
+        <i class="fa fa-envelope mt-3"></i> <a href="">as9106707756@gmail.com</a><br>
+        <i class="fas fa-globe mt-3"></i> 26,Simran Park , Dhansura road, Modasa, 383315 Arvalli<br>
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+
+
+
+</div>
+</div>

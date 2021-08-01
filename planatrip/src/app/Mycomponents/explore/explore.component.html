@@ -1,0 +1,1514 @@
+<div class="container my-4">
+    <div class="card">
+        <div class="card-body">
+            <h2>Select Country:</h2>
+          <select name="country" id="country" class="my-4 mx-4" [(ngModel)]="optionValue">
+              <option selected value="India" >India</option>
+              <option value="New Zealand" >New Zealand</option>
+              <option value="Turkey">Turkey</option>
+              <option value="Israel">Israel</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Greece" >Greece</option>
+              <option value="Japan" >Japan</option>
+              <option value="Portugal" >Portugal</option>
+              <option value="Sri lanka">Sri lanka</option>
+              <option value="Italy" >Italy</option>
+              
+          </select>
+        </div>
+      </div>
+</div>
+
+<div class="container my-4" *ngIf="optionValue=='India'">
+    <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/mysore.jpg" class="card-img-top" alt="Mysore">
+                <div class="card-body">
+                  <h5 class="card-title">Mysore</h5>
+                  <p class="card-text">In the southern tip of India, you’ll find the city of Mysore. Once the capital of the Wodeyar dynasty, Mysore is best known for housing the magnificent Mysore Palace. The palace is the epitome of opulence, and a tour through the structure will reveal upscale touches like carved rosewood doors, ceilings decorated in ivory and countless paintings on the walls.
+
+                    If you’re in Mysore, you won’t want to miss the incredible Devaraja Market, an outdoor experience on Dhanwanthri Road where you can buy some chai tea and then browse stalls offering produce or sandalwood carvings.
+                    
+                    </p>
+                  <a href="https://www.britannica.com/place/Mysore" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/amritsar.jpg" class="card-img-top" alt="Amritsar">
+                <div class="card-body">
+                  <h5 class="card-title">Amritsar</h5>
+                  <p class="card-text">In the northern province of Punjab is Amritsar, a holy city and a mecca for the Sikh religion. The main attraction in Amritsar is the Golden Temple, also known as the Harmandir Sahib. Built more than 400 years ago, this temple truly is golden, and it is always packed with Sikhs visiting from around India and the rest of the world.
+                    You can tour the Golden Temple regardless of religion, but you will need to show respect by covering your head and removing your shoes. Enter the temple through the Ghanta Ghar, the main entrance, and admire the Amrit Sarovar, a pool surrounding the temple where pilgrims bathe.
+                  </p>
+                  <a href="https://www.britannica.com/place/Amritsar" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/ladakh.jpg" class="card-img-top" alt="Ladakh">
+                <div class="card-body">
+                  <h5 class="card-title">Ladakh</h5>
+                  <p class="card-text">In northernmost India, in the heavily disputed Kashmir region, is the mountainous destination of Ladakh. This region is large, but it has a low population density and a number of nomadic residents. Breathtaking, pristine scenery is a major draw to the area, but virtually all travelers will also spend time in the town of Leh.
+
+                    The town is located at a very high elevation, and it is also home to the 17th century Palace of the King of Ladakh. Buddhist culture is also prominent in Leh, and you may wish to explore some of the many Buddhist monasteries and temples in the Old Town.</p>
+                  <a href="https://www.britannica.com/place/Ladakh" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/goa_beaches.jpg" class="card-img-top" alt="Goa Beaches">
+                <div class="card-body">
+                  <h5 class="card-title">Goa Beaches</h5>
+                  <p class="card-text">On the western coast of India is Goa, a former colony of Portugal that blends Indian culture with colonial influences and plenty of international tourism. Goa is popular largely because of its spectacular beaches.
+
+                    The busiest and most popular of all is Candolim Beach, where travelers from around the world flock to soak up the sun. Anjuna Beach, by contrast, is far less crowded. It is also an amazing place where you can walk to Chapora Fort and admire the sandy coastline from a new perspective.
+                    
+                    Palolem is considered one of the most beautiful beaches in all of Goa with it’s natural bay surrounded by lofty headlands on either sides. Goa is widely loved by adventurers, and recreational activities are plentiful for those eager for some fun in the sun.</p>
+                  <a href="https://www.britannica.com/place/Goa" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/delhi.jpg" class="card-img-top" alt="Delhi">
+                <div class="card-body">
+                  <h5 class="card-title">Delhi</h5>
+                  <p class="card-text">If you’re spending any time in Northern India, you will almost certainly visit the capital city of Delhi. The enormous sprawling destination is home to several districts, and it is considered to be one of the oldest cities in the world. One of the top sights in Delhi is the Red Fort, or Lal Qila, which was built in the 17th century.
+
+                    The Red Fort is made from sandstone, and you will be able to walk through its Lahore Gate, into the bazaar, through the jewel palace and even into the former residence of the sultan. While in Delhi, you should also make time for the many museums and religious structures that make up the city</p>
+                  <a href="https://www.britannica.com/place/Delhi" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/ellora_and_ajanta_caves.jpg" class="card-img-top" alt="Ellora and Ajanta Caves">
+                <div class="card-body">
+                  <h5 class="card-title">Ellora and Ajanta Caves</h5>
+                  <p class="card-text">In the state of Maharashtra, you can explore the caves of both Ellora and Ajanta. At Ellora, there is an enormous complex of shrines carved from the rocky landscape. These 34 cave shrines are up to 1,500 years old, and they are from three distinct religions: Buddhism, Jainism and Hinduism.
+
+                    Two hours away is Ajanta, which is also home to 29 caves. The Ajanta caves are covered in murals and paintings, most of which reflect Buddhist stories. While the two cave complexes are two hours away from one another, it is well worth visiting both to compare these incredible attractions.</p>
+                  <a href="https://www.britannica.com/place/Ajanta-Caves" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/varanasi.jpg" class="card-img-top" alt="Varanasi">
+                <div class="card-body">
+                  <h5 class="card-title">Varanasi</h5>
+                  <p class="card-text">With a history dating back to more than 3,000 years, Varanasi is one of the world’s oldest living cities. Located in North India on the banks of the River Ganges, Varanasi has been an important center of learning for ages as well as a chief pilgrimage destination for many Hindus.
+
+                    Varanasi is regarded as a sacred city among Hindus, Jains and Buddhists because it is believed that dying here releases a person’s soul from the cycle of reincarnation, and that bathing in the River Ganges cleanses one’s sins.
+                    
+                    Varanasi offers sights and experiences unknown anywhere else in the world. It is nicknamed the “City of Temples” because of its thousands of temples. Some of the most significant are the Kashi Vishwanath Temple of Shiva, the Durga Temple and the Sankat Mochan Hanuman Temple, which is known for housing numerous monkeys.
+                    
+                    Probably the most famous sites of the city are the ghats, the series of embankment steps leading down to the Ganges River, where many people gather to bathe. The oldest and main ghat is the Dashashwamedh Ghat. The Manikarnika Ghat is a burning ghat where Hindu cremations and rituals of death anniversaries are frequently held. Yoga, shaves and massages are other activities available here. The best way to see the ghats is by taking a morning boat ride at sunrise.
+                    
+                    Silk weaving is popular in Varanasi, and there are scores of shops and markets selling silk products like sarees and scarves in addition to other handicrafts.</p>
+                  <a href="https://www.britannica.com/place/Varanasi" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/kerala.jpg" class="card-img-top" alt="Kerala">
+                <div class="card-body">
+                  <h5 class="card-title">Kerala</h5>
+                  <p class="card-text">The southwestern state of India known as Kerala is a place of tropical beauty. Palm trees, white sand beaches and eco-tourism are all big reasons to explore the region. Besides its famous backwaters, elegant houseboats and temple festivals, Kerala is also home to Thekkady, a tiger preserve which allows you to admire flora and fauna without crowds.
+
+                    The hub of Kerala is the city of Kochi, where you can see the local fishing industry thriving along with modern high-rises and colonial architecture. Kochi is ethnically and religiously diverse, and in a single afternoon you can explore a Jewish synagogue, a Dutch palace, the Portuguese Pallipuram Fort and the Hindu Thrikkakara Templ</p>
+                  <a href="https://www.britannica.com/place/Kerala" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/agra.jpg" class="card-img-top" alt="Agra">
+                <div class="card-body">
+                  <h5 class="card-title">Agra</h5>
+                  <p class="card-text">Agra is one of the most-visited cities in all of India. Once the capital of the Mughal Empire, Agra is now home to the iconic structure known as the Taj Mahal. The white marble mausoleum was built in the 17th century, and it is widely regarded as a monument of love.
+
+                    While spectacularly beautiful, the Taj Majal can be very crowded. Also worth seeing in Agra is the Agra Fort, which is very similar to the Red Fort of Delhi. You can tour this 16th century fort and even explore the interior of its beautiful palace.</p>
+                  <a href="https://www.britannica.com/place/Agra" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/rajasthan.jpg" class="card-img-top" alt="Rajasthan">
+                <div class="card-body">
+                  <h5 class="card-title">Rajasthan</h5>
+                  <p class="card-text">Northwest India is where you’ll find the state of Rajasthan, which borders Pakistan and is home to the Thar Desert. Whether you’re interested in Rajput history or views of the Aravallis Mountains, Rajasthan contains some of the best places to visit in India. Jaipur, or the Pink City, is the capital of Rajasthan and a wonderful place to begin your trip.
+
+                    It is home to an array of incredible architecture, including three forts, many temples and the extraordinary City Palace. Also in Rajasthan and worth visiting is Jodhpur, the so-called Blue City that is the gateway to the Thar Desert as well as the home to the spectacular Mehrangarh Fort.</p>
+                  <a href="https://www.britannica.com/place/Rajasthan" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+      <h3>India Map:</h3>
+      <img src="assets/places_india_map.jpg" alt="India map">
+      <p>Reference: <a href="https://www.touropia.com/best-places-to-visit-in-india/">Touropia</a></p>
+    
+</div>
+
+<div class="container my-4" *ngIf="optionValue=='New Zealand'" >
+    <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/newzealand/stewart_island.jpg" class="card-img-top" alt="Stewart Island">
+                <div class="card-body">
+                  <h5 class="card-title">Stewart island</h5>
+                  <p class="card-text">Stewart Island is the third-largest island of New Zealand, and it is found even further south than South Island. Most of the island is forested and undeveloped with over 80 per cent of the island is set aside as the Rakiura National Park, giving you the chance to explore the wild side of New Zealand.
+
+                    Most of the pastimes on Stewart Island have to do with the outdoors, including hiking, camping and birdwatching. One of the most popular treks on Stewart Island is the Northwest Circuit, which can take several days to complete for even the fittest hikers. However, the trek offer spectacular views and access to amazing wildlife.
+                    
+                    
+                    
+                    </p>
+                  <a href="https://www.britannica.com/place/Stewart-Island" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/newzealand/nelson.jpg" class="card-img-top" alt="Nelson">
+                <div class="card-body">
+                  <h5 class="card-title">Nelson</h5>
+                  <p class="card-text">At the top of the South Island is Nelson, a spot known for having the greatest number of sunshine hours per year in all of New Zealand. This great climate and the fact that the city is surrounded by three national parks makes Nelson a fantastic spot for outdoor recreation.
+
+                    There is also an emphasis on local agriculture and the area’s wineries. Founder’s Park is an amazing spot in the city where you can dine on local farm-to-table cuisine, and soak up the sunshine right in the heart of an urban area.
+                    
+                    You can even do a day-trip to Abel Tasman National Park from Nelson using an early bus, which give you just enough time to enjoy the park.
+                  </p>
+                  <a href="https://www.newzealand.com/int/nelson-tasman/" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/newzealand/glacier_country.jpg" class="card-img-top" alt="Glacier Country">
+                <div class="card-body">
+                  <h5 class="card-title">Glacier Country</h5>
+                  <p class="card-text">Glacier Country is found on the Western Coast of South Island, and its jewel is the Westland National Park. In the park, you’ll have the chance to see the country’s two most spectacular glaciers: Franz Josef Glacier and Fox Glacier.
+
+                    Franz Josef Glacier is one of the most accessible glaciers on the planet, meaning that you can actually walk up to the glacier and even through the glacier valley itself. Guided tours give you a closer look at the expanding glaciers, and you can relax after a day of hiking by soaking in the incredible glacier hot pools.</p>
+                  <a href="https://www.newzealand.com/in/glaciers/" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/newzealand/napier.jpg" class="card-img-top" alt="Napier">
+                <div class="card-body">
+                  <h5 class="card-title">Napier</h5>
+                  <p class="card-text">The seaside resort of Napier on North Island is known as the Art Deco Capital of New Zealand, thanks to a large amount of 1930s architecture built when the city suffered a large fire more than 80 years ago.
+
+                    After touring the city on foot for a guided or self-guided architecture tour, the best way to enjoy Napier is by visiting the National Aquarium of New Zealand. This enormous aquarium is home to everything from turtles to crocodiles, and the modern exhibits are truly world-class.</p>
+                  <a href="https://www.newzealand.com/in/napier/" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/newzealand/rotorua.jpg" class="card-img-top" alt="Rotorua">
+                <div class="card-body">
+                  <h5 class="card-title">Rotorua</h5>
+                  <p class="card-text">Rotorua is known as the thermal wonderland of New Zealand. There are numerous geysers and hot springs in and around the city. Many of these are in parks and reserves.
+
+                    Natural eruptions of steam, hot water and mud occasionally occur in new locations. Nearby Wai-O-Tapu is also a popular place to visit with many hot springs noted for their colorful appearance, in addition to the Lady Knox Geyser.</p>
+                  <a href="https://www.newzealand.com/in/rotorua/" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/newzealand/paihia.jpg" class="card-img-top" alt="Paihia">
+                <div class="card-body">
+                  <h5 class="card-title">Paihia</h5>
+                  <p class="card-text">If you’re interested in exploring the Bay of Islands, then Paihia is a great place to visit in New Zealand. Paihia is all about the small-town feel, but it boasts an array of great hotels and recreational opportunities to appeal to travelers.
+
+                    If you’re feeling adventurous and active, you can swim with dolphins or even go scuba diving to see the underwater shipwreck called the Rainbow Warrior. Back on dry land, make your way to Marsden Road for exceptional restaurants serving up an array of freshly caught seafood.</p>
+                  <a href="https://www.newzealand.com/in/paihia/" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/newzealand/auckland.jpg" class="card-img-top" alt="Auckland">
+                <div class="card-body">
+                  <h5 class="card-title">Auckland</h5>
+                  <p class="card-text">Known as the City of Sails, Auckland is the largest and most populated city in New Zealand. It is located on the North Island, and it is known for its vibrant culture and foodie landscape. For amazing views of this beautiful metropolis, climb the Auckland Harbor Bridge.
+
+                    If you’re interested in learning more about the history and heritage of New Zealand, then be sure to check out the Auckland Domain, which is the city’s oldest part. In the Auckland Domain, you’ll find great exhibits of Maori and Pacific Island artifacts at the iconic Auckland Museum.</p>
+                  <a href="https://www.newzealand.com/in/auckland/" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/newzealand/queenstown.jpg" class="card-img-top" alt="Queenstown">
+                <div class="card-body">
+                  <h5 class="card-title">Queenstown</h5>
+                  <p class="card-text">On New Zealand’s South Island is Queenstown, a destination known as the dream spot for those in search of adrenaline and adventure. Surrounded by the towering peaks of the Southern Alps, and right on the banks of deep-blue Lake Wakatipu, Queenstown is also an incredibly beautiful spot.
+
+                    One of the best ways to experience the scenery is on Lake Wakatipu itself. You can cycle around the lake’s perimeter or set off on a cruise of the lake’s magnificent waters. There is also a vibrant nightlife with the town’s small central area packed with bars and restaurants.</p>
+                  <a href="https://www.newzealand.com/in/queenstown/" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/newzealand/tongario_national_park.jpg" class="card-img-top" alt="Tongario National Park">
+                <div class="card-body">
+                  <h5 class="card-title">Tongario National Park</h5>
+                  <p class="card-text">The first national park of New Zealand, Tongariro is known for its surprises and extremes. The park’s diverse range of ecosystems includes tranquil lakes, active volcanoes, herb fields, untamed forests and desert-like plateaus.
+
+                    Start your trek at the Whakapapa Visitor Center, just a three hour hike from the stunning Taranaki Falls. The short hike will take you through scrubland and forest and across the lava line of volcanic eruptions from hundreds of years ago.</p>
+                  <a href="https://www.newzealand.com/in/feature/national-parks-tongariro/" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/newzealand/fiordland.jpg" class="card-img-top" alt="Fiordland">
+                <div class="card-body">
+                  <h5 class="card-title">Fiordland</h5>
+                  <p class="card-text">One of the most scenic spots in New Zealand is the Fiordland National Park. Here, you can set off on incredible hikes, fish for trout or cruise on the spectacular fjords (named sounds here) in the south-western corner of the South Island. Milford Sound is the biggest attraction in Fiordland, and it is a true fjord created by a glacier.
+
+                    On a cruise through Milford Sound, you can spot waterfalls, admire the sheer rock faces towering over the water and even see wildlife like dolphins and penguins.</p>
+                  <a href="https://www.newzealand.com/in/fiordland/" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+      <h3>New Zealand Map:</h3>
+      <img src="assets/places_new_zealand_map.jpg" alt="India map">
+      <p>Reference: <a href="https://www.touropia.com/best-places-to-visit-in-new-zealand/">Touropia</a></p>
+</div>
+
+
+<!--Turkey-->
+
+
+<div class="container my-4" *ngIf="optionValue=='Turkey'" >
+    <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/turkey/ankara.jpg" class="card-img-top" alt="Ankara">
+                <div class="card-body">
+                  <h5 class="card-title">Ankara</h5>
+                  <p class="card-text">Turkey’s capital city, Ankara, is a sprawling, modern city home to government buildings, commercial businesses, universities and foreign embassies. Located right in the center of the country and the Anatolia region, Ankara is an important transportation hub, linking nationals and tourists alike to other major destinations in Turkey. However, Ankara is not all business. This bustling city also offers a few historic sites and some arts and culture.
+
+                    An old city once inhabited by various cultures including Hittite, Greek, Roman, Byzantine and Ottoman, Ankara is riddled with ancient structures and ruins reflecting its history. Some of the most notable of these are the Temple of Augustus, the Citadel, and a Roman Theatre. Numerous historic mosques can also be found throughout the city. An important 20th century landmark, Anitkabir, is a mausoleum housing the tomb of Turkey’s first President, Mustafa Kemal Atatürk.
+                    
+                    
+                    
+                    </p>
+                  <a href="https://www.britannica.com/place/Ankara" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/turkey/mardin.jpg" class="card-img-top" alt="Mardin">
+                <div class="card-body">
+                  <h5 class="card-title">Mardin</h5>
+                  <p class="card-text">Perched on a strategic hilltop overlooking the plains of Mesopotamia in southeastern Turkey, Mardin is the capital of the Mardin Province. One of the oldest settlements in the region, Mardin is best known for its cultural diversity and Old City of sandstone buildings that cascade down the hill.
+
+                    Mardin’s Old City is easily toured by walking. The maze of meandering streets leads visitors along terraced houses and popular sites like Deyrü’z-Zafaran Monastery, one of the oldest monasteries in the world, and the Sultan Isa Medresesi, a medieval monument that once served as an astronomical observatory. Zinciriye Medresesi, a 14th century Islamic school, features beautiful courtyards and art works.
+                    
+                    The Great Mosque, with its soaring minaret, is hard to miss. Although closed to the public, the citadel presents fantastic photo opportunities. Throughout the Old City is a myriad of shops selling the likes of pottery, silverware, leather and traditional headdresses.
+                  </p>
+                  <a href="https://www.britannica.com/place/Mardin-Turkey" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/turkey/konya.jpg" class="card-img-top" alt="Konya">
+                <div class="card-body">
+                  <h5 class="card-title">Konya</h5>
+                  <p class="card-text">One of the oldest cities in the world and best known for its remarkable Seljuk architecture and Whirling Dervishes, Konya is a large city in Turkey’s Central Anatolia Region. In the 12th and 13th centuries, Konya prospered as a capital city under the rule of the Seljuk Dynasty. Today, attractive buildings from that era can still be admired such as the Alaeddin Mosque, which houses the tombs of several sultans. Another popular example is the Ince Minare Medrese, now a museum displaying artifacts from the Seljuk and Ottoman eras.
+
+                    Although in ruins, the Seljuk Palace is also worth a visit. A modern day architectural attraction is the Seljuk Tower, one of the tallest skyscrapers in Turkey, featuring a revolving restaurant at the top two floors.
+                    
+                    </p>
+                  <a href="https://www.britannica.com/place/Konya" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/turkey/antalya.jpg" class="card-img-top" alt="Antalya">
+                <div class="card-body">
+                  <h5 class="card-title">Antalya</h5>
+                  <p class="card-text">Nestled along the beautiful Turkish Riviera on the Mediterranean coastline, Antalya is a large, vibrant city welcoming tourists with numerous resorts, hotels, bars and restaurants. Spectacular scenery frames the city with gorgeous beaches and lush green mountains dotted with ancient ruins. From swimming and sailing to mountain climbing, sightseeing and family fun, Antalya offers something for everyone.
+
+                    A walk around Kaleiçi, the Old Quarter, offers a step back into the city’s ancient past with views of the old city walls, Roman gates, maze-like streets and historic structures that include the Clock Tower and beautiful, old churches, mosques and temples. At the heart of the Old Quarter is the Cumhuriyet Square, surrounded by shops, cafes, Turkish baths and street performers.
+                    
+                    Antalya’s main beaches, Konyaalti and Lara, offer white sands, water sports, resorts, bars and restaurants. Nearby the beaches are water parks, amusement parks and a zoo. Several museums exhibit artifacts and relics from the area, including the award-winning Antalya Museum.</p>
+                  <a href="https://www.britannica.com/place/Antalya" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/turkey/marmaris.jpg" class="card-img-top" alt="Marmaris">
+                <div class="card-body">
+                  <h5 class="card-title">Marmaris</h5>
+                  <p class="card-text">One of Turkey’s most popular seaside resorts, Marmaris is a picture-perfect setting of pine-clad mountains, sandy white beaches, turquoise waters and historic architecture. Located along the Turkish Riviera in southwest Turkey, this stunning cruise port is a tourist paradise with exceptional sightseeing opportunities, water sports, fantastic dining and buzzing nightlife.
+
+                    Marmaris presents so much to see and do that visitors will be spoiled for choice. A walk along the cobblestone streets of the old quarter offers attractive architecture and a visit to the 16th century Castle of Suleyman the Magnificent. Various boating tours take visitors exploring around the picturesque bays and neighboring villages.
+                    
+                    </p>
+                  <a href="https://en.wikipedia.org/wiki/Marmaris" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/turkey/side.jpg" class="card-img-top" alt="Side">
+                <div class="card-body">
+                  <h5 class="card-title">Side</h5>
+                  <p class="card-text">A major port in ancient Pamphylia and occupied by Alexander the Great in 4th century BC, Side today is a picturesque town of classic ruins and modern day resorts overlooking sandy white beaches. Located on Turkey’s Mediterranean Coast in the Antalya Province on a small peninsula, Side offers fantastic sightseeing, nightlife and outdoor adventure.
+
+                    Side’s star attraction is an excavated site of ancient Hellenistic and Roman ruins that include the remnants of a colossal amphitheater, an agora, a Byzantine basilica, public baths, marble columns and various temples. The Roman baths are now restored to house a museum, which displays a number of Roman statues and artifacts. Overlooking the beach, the Temple of Apollo is a spectacular sight, especially at sunset.
+                    
+                    Featuring narrow streets and attractive gardens, the charming town of Side offers many restaurants ranging from delis and pizza shops to upscale dining in a variety of cuisines. Just outside of town, the Manavgat River offers boat tours, white water rafting and impressive waterfalls..</p>
+                  <a href="https://www.britannica.com/place/Side-Turkey" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/turkey/bodrum.jpg" class="card-img-top" alt="Bodrum">
+                <div class="card-body">
+                  <h5 class="card-title">Bodrum</h5>
+                  <p class="card-text">Located in the Mugla Povince in the southern Aegean region of Turkey, Bodrum is the site of the ancient fortified city, Halicarnassus, which was once home to marble buildings, temples, statutes, paved streets and the Mausoleum, one of the Seven Wonders of the Ancient World.
+
+                    After falling into ruins, the city remained a quiet fishing village until the 20th century when Turkish intellectuals brought popularity to it through their writings. Today, Bodrum’s intriguing ruins, stunning beaches and cliff-top resorts attract people from all over the world.</p>
+                  <a href="https://www.britannica.com/place/Bodrum" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/turkey/ephesus.jpg" class="card-img-top" alt="Ephesus">
+                <div class="card-body">
+                  <h5 class="card-title">Ephesus</h5>
+                  <p class="card-text">Europe’s most complete classical metropolis, Ephesus is an ancient site located in Aegean Turkey. By the 1st century BC, Ephesus was one of the largest cities in all of the Roman Empire, boasting one of the Seven Wonders of the Ancient World, the Temple of Artemis. The ruins of Ephesus are well preserved and contained within a large archaeological site, making it one of Turkey’s most popular tourist attractions.
+
+                    Ephesus was declared a Roman settlement in 133 BC, although it did not reach its peak until some 200 years later. At one point, when the city was the capital of Roman Asia Minor, Ephesus housed more than 250,000 permanent residents. St.Paul lived in Ephesus, fostering Christianity among many other religions. With the decline of the harbor of Ephesus, and the sacking of the city by Germanic Goths in the third century, Ephesus began its decline.</p>
+                  <a href="https://www.britannica.com/place/Ephesus" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/turkey/cappadocia.jpg" class="card-img-top" alt="Cappadocia">
+                <div class="card-body">
+                  <h5 class="card-title">Cappadocia</h5>
+                  <p class="card-text">Situated in Central Anatolia of Turkey, Cappadocia is best known for its fairytale landscape of unusual formations resembling chimneys, cones, mushrooms and pinnacles. Natural processes such as ancient volcanic eruptions and erosion have all sculpted these odd formations over the ages, with some of them rising as much as 130 feet (40 meters) high. However, thousands of years ago, mankind added remarkable touches to the landscape by carving out houses, churches and underground cities from the soft rock.
+
+                    Inhabited as early as 1800 BC, Hittites and other residents chiseled out underground tunnel complexes, seeking safety from invading Persians and Greeks. Much later in the 4th century AD, Christians, fleeing out of religious persecution from Rome, sought refuge in Cappadocia’s tunnels and caves. Today, the region’s natural wonders and historic sites all make it a popular destination.</p>
+                  <a href="https://www.britannica.com/place/Cappadocia" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/turkey/istanbul.jpg" class="card-img-top" alt="Istanbul">
+                <div class="card-body">
+                  <h5 class="card-title">Istanbul</h5>
+                  <p class="card-text">Once serving as the capital of the Ottoman and Byzantine Empires, Istanbul today is the largest city in Turkey and one of the largest in the world. Istanbul stretches across both sides of the Bosphorus, a narrow strait that connects Asia and Europe, making it the only city in the world spanning two continents. Impressive architecture, historic sites, dining, shopping, nightlife and exotic atmosphere all make Istanbul one of the world’s top tourist destinations.
+
+                    The Old City is where most of the city’s impressive historic sites are found, which include the Hagia Sophia, Blue Mosque and Topkapi Palace. Another important district is New City, known for its modern day attractions, skyscrapers and shopping malls. Beyoglu and Galata are popular zones for nightlife and entertainment, while the Bosphorus area is home to beautiful palaces, waterfront mansions and urban parks.</p>
+                  <a href="https://www.britannica.com/place/Istanbul" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+      <h3>Turkey Map:</h3>
+      <img src="assets/turkey/turkey_map-1.jpg" alt="Turkey map">
+      <p>Reference: <a href="https://www.touropia.com/best-places-to-visit-in-turkey/">Touropia</a></p>
+</div>
+
+
+
+
+<!--Israel-->
+
+
+<div class="container my-4" *ngIf="optionValue=='Israel'" >
+    <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/israel/nazareth.jpg" class="card-img-top" alt="Nazareth">
+                <div class="card-body">
+                  <h5 class="card-title">Nazareth</h5>
+                  <p class="card-text">Nazareth, the largest city in Galilee, is known as the Arab capital of the country because its residents are predominantly Arab citizens of Israel. Nazareth is a pilgrimage destination for Christians because the Bible says it was the home of Joseph and Mary and hence the childhood home of Jesus.
+
+                    This ancient city is where the angel Gabriel appeared to tell Mary she would give birth to Jesus. Because of this, Nazareth is sometimes called the cradle of Christianity. Its Old City boasts the Church of the Annunciation, the largest Catholic church in the Middle East. Take time, too, to walk the picturesque streets and visit the colorful local market.
+                    
+                    
+                    </p>
+                  <a href="https://www.britannica.com/place/Nazareth-Israel" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/israel/caesarea.jpg" class="card-img-top" alt="Caesarea">
+                <div class="card-body">
+                  <h5 class="card-title">Caesarea</h5>
+                  <p class="card-text">Caesarea is both ancient and new. It was founded by Herod the Great in honor of Caesar Augustus, who gave him the city. In 1952, it became the only city in Israel to be governed by a private corporation. Antiquities park is where you’ll find ruins from Herod’s extensive building campaign.
+                  </p>
+                  <a href="https://www.britannica.com/place/Caesarea" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/israel/ramon_crater.jpg" class="card-img-top" alt="Ramon Crater">
+                <div class="card-body">
+                  <h5 class="card-title">Ramon Crater</h5>
+                  <p class="card-text">Ramon Crater is the largest of three erosion craters found in the Negev Desert. The geological landform is believed to have started forming millions of years ago when the ocean began receding. It was a few more million years before it became the crater it is today.
+
+                    Ringed by mountains, the colorful crater is more than 450 meters (1,500 feet) deep and nearly 40 km (25 miles) long. The world’s largest erosion crater is accessible to the public; you can ogle the varying terrain as you hike, bike or drive through it. Campers may enjoy staying at a campsite run by Bedouins.
+                    
+                    
+                    
+                    </p>
+                  <a href="https://en.wikipedia.org/wiki/Makhtesh_Ramon" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/israel/haifa.jpg" class="card-img-top" alt="Haifa">
+                <div class="card-body">
+                  <h5 class="card-title">Haifa</h5>
+                  <p class="card-text">Israel may be a Jewish state, but it is another religion that draws visitors to Haifa, the country’s third largest city. Located on the Mediterranean, this pretty city’s biggest tourist attraction is the Baha’i World Center with its shrine of the Bab and beautiful gardens.
+
+                    Haifa is primarily a port and industrial city, but it offers a variety of things to do. The Israel Museum of Science, Technology and Space is its most visited museum. The arts are important, too, with Ein Hod, home to about 100 artists and craftsmen. Haifa has nice beaches and is a good place to surf and sail.</p>
+                  <a href="https://www.britannica.com/place/Haifa" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/israel/sea_of_galilee.jpg" class="card-img-top" alt="Sea of Galilee">
+                <div class="card-body">
+                  <h5 class="card-title">Sea of Galilee"</h5>
+                  <p class="card-text">The Sea of Galilee of Galilee is the lowest freshwater lake on earth, and the second lowest lake in the world – the lowest being the saltwater Dead Sea. Jesus’ Sermon on the Mount was supposedly given on a hill overlooking the sea.
+
+                    It’s a popular destination for Christian pilgrims who want to see where Jesus walked on water. The 65-km (40-mile) long Jesus Hiking Trail that visits places where Jesus worked his ministry is another draw. People also come from all over the world to be baptized at the spot the lake flows into the Jordan Ri
+                    
+                    </p>
+                  <a href="https://www.britannica.com/place/Sea-of-Galilee" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/israel/tel_aviv.jpg" class="card-img-top" alt="Tel Aviv">
+                <div class="card-body">
+                  <h5 class="card-title">Tel Aviv</h5>
+                  <p class="card-text">Tel Aviv, Israel’s second largest city, is the country’s financial hub. But that doesn’t mean you should skip coming here because there’s lots see and do, especially if you’re into nightlife. Tel Aviv is known as a party city, as one that doesn’t sleep.
+
+                    The city is home to the national opera and philharmonic orchestra. Several travel publication surveys rank the city among the best place to visit in Israel; it’s also famous for being LGBT friendly. Its Mediterranean beaches are some of the world’s best. The city has several outstanding museums, including Beth Hatefulsoth that tells the story of Jewish persecution over the ages.</p>
+                  <a href="https://www.britannica.com/place/Tel-Aviv-Yafo" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/israel/eilat.jpg" class="card-img-top" alt="Eilat">
+                <div class="card-body">
+                  <h5 class="card-title">Eilat</h5>
+                  <p class="card-text">Eilat is an ancient city on the Red Sea that’s served as a port city since the days of King Solomon. Eilat is Israel’s southernmost city. Its sumptuous beaches and an arid climate contributes make it a major resort city. It has some of the best diving in the world, likely due to the beautiful coral reef located here.
+
+                    If you dive, expect to see an astounding array of sea life. Other attractions include King City, a high-tech Bible-based family theme park; bird watching – Eilat is on the main migration route between Europe and Africa; and Timna Valley Park, home to Solomon’s Pillars and the world’s oldest copper mine.</p>
+                  <a href="https://en.wikipedia.org/wiki/Eilat" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/israel/dead_sea.jpg" class="card-img-top" alt="Dead Sea">
+                <div class="card-body">
+                  <h5 class="card-title">Dead Sea</h5>
+                  <p class="card-text">The Dead Sea got its name for a reason. It’s almost 10 times as salty as the ocean, making it a harsh environment for anything to grow in. And at 400 meters (1,400 feet) below sea level, it’s the lowest elevation on land.
+
+                    For thousands of years; the salt and minerals from its water are used in cosmetics. Dead Sea water and mud have medically proven benefits, putting severe skin diseases and joint problems into long-term remission. All the luxury hotels along the coast have health spas, which are often booked solid for months ahead.</p>
+                  <a href="https://www.britannica.com/place/Dead-Sea" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="row my-4">
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/israel/masada.jpg" class="card-img-top" alt="Masada">
+                <div class="card-body">
+                  <h5 class="card-title">Masada</h5>
+                  <p class="card-text">Situated on a high plateau in southern Israel overlooking the Dead Sea, Masada was the last Jewish holdout to fall to Rome at the end of the First Jewish–Roman War. Masada was first fortified by Herod the Great in the late first century BC. In 66 AD, Sicarii Jewish patriots captured the fortress from the Romans, who tried to take it back seven years later.</p>
+                  <a href="https://www.britannica.com/place/Masada" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 35rem;">
+                <img src="assets/israel/jerusalem.jpg" class="card-img-top" alt="Jerusalem">
+                <div class="card-body">
+                  <h5 class="card-title">Jerusalem</h5>
+                  <p class="card-text">Regarded as a holy city to the three major religions of Judaism, Christianity and Islam, Jerusalem is one of the world’s oldest cities. Located high in the Judean Mountains, Jerusalem was formerly inhabited by the Jebusite tribe until King David of the Israelites captured it 3,000 years ago and made it his capital city.
+
+                    Over the centuries, the city has been besieged, attacked and captured numerous times by opposing religious and political powers. In spite of time and warfare, Jerusalem’s many historic sites remain well preserved, making it one of the most beautiful and fascinating cities of the world.
+                    
+                    </p>
+                  <a href="https://www.britannica.com/place/Jerusalem" class="btn btn-primary">Check it out!</a>
+                </div>
+              </div>
+        </div>
+      </div>
+      <h3>Israel Map:</h3>
+      <img src="assets/israel/places_israel_map.jpg" alt="Israel map">
+      <p>Reference: <a href="https://www.touropia.com/best-places-to-visit-in-israel/">Touropia</a></p>
+</div>
+
+
+
+
+
+<!--Colombia-->
+
+
+<div class="container my-4" *ngIf="optionValue=='Colombia' " >
+  <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/colombia/popayan.jpg" class="card-img-top" alt="Popayan">
+              <div class="card-body">
+                <h5 class="card-title">Popayan</h5>
+                <p class="card-text">Popayan is one of Colombia’s most impressive colonial cities. Located in southwestern Colombia, it is sometimes called the “Ciudad Blanca” (White City) because its buildings are chalk-white. Founded in 1537, its mild climate quickly attracted wealthy Spanish families who built mansions, schools, churches and monasteries. The city is famous for its Maundy Thursday procession as well as its nightlife. The Iglesia de Ermita is the city’s oldest church, built in 1546, while the Iglesia de San Francisco lays claim to being the most beautiful. Popayan’s tranquility and charm make it a good place to chill out.
+                  
+                  
+                  </p>
+                <a href="https://www.britannica.com/place/Popayan" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/colombia/medelin.jpg" class="card-img-top" alt="Medelin">
+              <div class="card-body">
+                <h5 class="card-title">Medelin</h5>
+                <p class="card-text">Throughout the 1980s and 1990s, Medellín was considered one of the most dangerous cities in the world, home to Colombia’s infamous cocaine cartel. But when drug lord Pablo Escobar was snuffed out in 1993, Medellín began to bury its troubled past and rebounded tremendously. These days, the increasing number of tourist who come here find an inviting, modern city with one of the country’s best climates. Located in the Andes in the narrow Aburra Valley, the city sports temperatures averaging 24°C/72°F throughout the year, making any time a good time to visit. Medellin is also a very colorful city because of its gorgeous flowers; the city celebrates its flower festival for 12 days every August.
+                </p>
+                <a href="https://www.britannica.com/place/Medellin-Colombia" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/colombia/san_andres_y_providencia.jpg" class="card-img-top" alt=" San Andres y Providencia">
+              <div class="card-body">
+                <h5 class="card-title"> San Andres y Providencia</h5>
+                <p class="card-text">San Andrés and Providencia Archipelago are two island groups that are located closer to Nicaragua than Colombia in the Caribbean. San Andres is the largest island, and also the capital. Providence Island was initially settled by English Puritans who used slave labor on their plantations and took up privateering. White sand beaches and palm trees are San Andres’ best features. The Caribbean is colored seven shades of blue and is rich marine life, making it a great place to snorkel and dive. Accommodations aren’t as luxurious as other Caribbean islands, and visitors travel around the island on old school buses
+                  
+                  
+                  
+                  </p>
+                <a href="https://www.britannica.com/place/San-Andres-y-Providencia" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/colombia/san_agustin.jpg" class="card-img-top" alt="San Agustin">
+              <div class="card-body">
+                <h5 class="card-title">San Agustin</h5>
+                <p class="card-text">San Agustin is a laidback little town surrounded by awesome landscapes and the remains of a forgotten civilization. One of the most intriguing ancient sites in Colombia, the archeological park of San Agustin is home to more than 500 monoliths, statues, petroglyphs and sarcophagi. Most of the stone carvings at San Agustin were created between 100 A.D. and 1200 A.D. They include representations of human figures, smiling and sneering monsters as well as animals such as snakes, birds and jaguars. The pre-Incan culture that built the stone carvings is surrounded by mystery. No one knows their actual name. Most of what is known about this society comes from the interpretation of the carved statues and other ruins.</p>
+                <a href="https://en.wikipedia.org/wiki/San_Agust%C3%ADn,_Huila" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/colombia/zona_cafetera.jpg" class="card-img-top" alt="Zona Cafeterra">
+              <div class="card-body">
+                <h5 class="card-title">Zona Cafeterra</h5>
+                <p class="card-text">Travelers who love their java will definitely want to visit Zona Cafetera (Eje Cafetero) where almost half of Colombia’s coffee crop is grown on the slopes of the Andes. Visitors can learn more about coffee at El Parque del Café, a park that has a botanical garden with coffee plants and an amusement park. The Zone has a gold museum featuring pre-Columbian artifacts. The tower at the Catedral de Manizales offers stunning views of one of the region’s main cities. Visitors can also take a dip in thermal springs at Santa Rosa and San Vincente. The region also is a good place to hike in the Andes.
+                  
+                  </p>
+                <a href="https://wikitravel.org/en/Zona_Cafetera" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/colombia/san_gil.jpg" class="card-img-top" alt="San Gil">
+              <div class="card-body">
+                <h5 class="card-title">San Gil</h5>
+                <p class="card-text">San Gil is an old colonial town in northeast Colombia. Founded by the Spanish in 1689, it was named the region’s tourism capital in 2004. The designation honors mainly the main outdoor activities, such as mountain biking, rafting and kayaking. Couch potatoes may enjoy a visit to the cathedral built in 1791; the Parque La Libertad, the center of the city’s social life; the Parque El Gallineral, a park set in a river, and Plaza de Mercado, a covered market where travelers can sample a variety of typical Colombian foods.</p>
+                <a href="https://wikitravel.org/en/San_Gil" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/colombia/villa_de_leyva.jpg" class="card-img-top" alt="Villa De Leyva">
+              <div class="card-body">
+                <h5 class="card-title">Villa De Leyva</h5>
+                <p class="card-text">Villa de Leyva may be a small town less than a four-hour drive from Bogota, but its Plaza Mayor is one of the biggest town squares in South America. At one time people were executed on this immense square, which is now used as a gathering place for celebrations and festivals, such as the onion beauty pageant. Its architecture reflects Spanish and Moorish influences; indeed, the Villa de Leyva has been compared to Andalucía because of the white buildings with wooden trim and balconies. Museums honor famous people who fought for Colombian independence. The first distillery in the region is located here.</p>
+                <a href="https://wikitravel.org/en/Villa_de_Leyva" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/colombia/bogota.jpg" class="card-img-top" alt="Bogota">
+              <div class="card-body">
+                <h5 class="card-title">Bogota</h5>
+                <p class="card-text">Bogota, sometimes referred to as “the Athens of South America”, was first settled by indigenous peoples, though the founding date is generally set at 1538 by a Spanish explorer. Today, the city is one of the largest cities in South America and Colombia’s capital. Once considered a place to avoid, Bogota has cleaned up its act and is fast becoming one of the best places to visit in Colombia. Located at 2,640 meters (8,660 feet) in the Andes, Bogota has numerous attractions to entice visitors, including a planetarium, gold museum, botanical gardens, cultural events and a thriving nightlife. The city’s historic district can be found at La Candelaria, a pleasant quarter of cafés, churches and museums.</p>
+                <a href="https://wikitravel.org/en/Bogota" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/colombia/tayrona_national_park.jpg" class="card-img-top" alt="Tayrona National Park">
+              <div class="card-body">
+                <h5 class="card-title">Tayrona National Park</h5>
+                <p class="card-text">Tayrona National Park is a must-see place for travelers who enjoy nature and exploring old ruins. Located on the north Colombia coast, the park offers a variety of ecosystems, from swamps to scrublands to cloud forests. For many travelers, the park’s biggest attraction is its beaches, set in deep bays and shaded with coconut palms. In fact, Tayrona beaches are among Colombia’s most beautiful. The park is also popular with birdwatchers who come to see the Andean condor, a threatened species. The park takes its name from the Tayronas, a native people, who left their mark on a number of archaeological sites, including Pueblito Chairama. Tayrona is a good place to snorkel, hike and see wild animals, including lizards and monkeys, in their native habitat.</p>
+                <a href="https://en.wikipedia.org/wiki/Tayrona_National_Natural_Park" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/colombia/cartagena.jpg" class="card-img-top" alt="Cartagena">
+              <div class="card-body">
+                <h5 class="card-title">Cartagena</h5>
+                <p class="card-text">Cartagena is the bustling city where Kathleen Turner’s character Joan Wilder begins her Colombian adventures in Romancing the Stone. Hopefully, travelers will get their visits off to better starts, though the city is just as busy as when it was one of the key Caribbean ports from the 16th to 18th centuries. Fought over by various countries, Cartagena was one of the most heavily fortified cities in South America; these fortifications can still be seen today. Travelers should take time to wander through the colorful old town, with its colonial architecture that includes museums, palaces and churches. “Bocagrande“, a long strip of hotel towers and condos fronting onto the beach, is also very popular with tourists.
+                  
+                  </p>
+                <a href="https://wikitravel.org/en/Cartagena_(Colombia)" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+    <h3>Colombia Map:</h3>
+    <img src="assets/colombia/colombia_map-1.jpg" alt="Colombia map">
+    <p>Reference: <a href="https://www.touropia.com/best-places-to-visit-in-colombia/">Touropia</a></p>
+</div>
+
+
+
+<!--Greece-->
+
+
+<div class="container my-4" *ngIf="optionValue=='Greece' " >
+  <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/greece/cape_sounion.jpg" class="card-img-top" alt="Cape sounion">
+              <div class="card-body">
+                <h5 class="card-title">Cape sounion</h5>
+                <p class="card-text">Situated at the southernmost tip of the Attica peninsula, Cape Sounion is best known as the site of the ruins of the ancient Greek temple of Poseidon, the god of the sea.
+
+                  The remains are perched on the headland, surrounded on three sides by the sea. The site is a popular day-excursion for tourists from Athens, with sunset over the Aegean Sea, as viewed from the ruins, a sought-after spectacle.
+                  
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Sounion" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/greece/thessaloniki.jpg" class="card-img-top" alt="Thessaloniki">
+              <div class="card-body">
+                <h5 class="card-title">Thessaloniki</h5>
+                <p class="card-text">Thessaloniki is Greece’s second-largest city and the capital city of the Macedonian region of Northern Greece. Lively festivals, social events and a buzzing nightlife make this city the cultural capital of Greece.
+
+                  Comprised of a historic city center and commercial district, Thessaloniki offers both old and new attractions from its Byzantine walls, White Tower and Turkish baths to colorful food markets, museums and art galleries. Thessaloniki’s nightlife is unmatched. From small tavernas to nightclubs and other entertainment venues, Thessaloniki offers it all.
+                </p>
+                <a href="https://en.wikipedia.org/wiki/Thessaloniki" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/greece/zagori.jpg" class="card-img-top" alt=" Zagori">
+              <div class="card-body">
+                <h5 class="card-title">Zagori</h5>
+                <p class="card-text">Zagori is a region of great natural beauty, with striking geology and two national parks, in northwestern Greece. It’s dense forests and rugged mountains are furrowed by powerful rivers and dotted with traditional villages, many featuring grand stone houses dating from the late eighteenth century.
+
+                  The best way to enjoy the area is by hiking the numerous paths connecting the villages. The most accessible and rewarding target is the wonderful Víkos Gorge.
+                  
+                  
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Zagori" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/greece/halkidiki.jpg" class="card-img-top" alt="Halkidiki">
+              <div class="card-body">
+                <h5 class="card-title">Halkidiki</h5>
+                <p class="card-text">Halkidiki is a trident-like peninsula near the city of Thessaloniki, sporting excellent beaches. The three separate peninsulas can be roughly summarized as follows: Kassandra has the nightlife, Sithonia has the beaches and Athos has the monks.
+
+                  Being closest to Thessaloniki, Kassandra is more built-up, while the more quiet Sithonia has campgrounds, hidden coves and clear waters. Both are popular with Greek and Eastern European tourists. Much of the easternmost peninsula belongs to the Mount Athos monastic community. It’s accessible by boat and open to male pilgrims only</p>
+                <a href="https://en.wikipedia.org/wiki/Chalkidiki" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/greece/peloponnese.jpg" class="card-img-top" alt="Peloponnese">
+              <div class="card-body">
+                <h5 class="card-title">Peloponnese</h5>
+                <p class="card-text">Shaped much like a large leaf, Peloponnese was traditionally called Morea, which means mulberry leaf. Located in the southernmost region of both Europe and Greece, Peloponnese is a wide peninsula connected to the mainland by the Rio-Antirrio bridge.
+
+                  Interspersed with classical Greek temples, Venetian fortresses, Byzantine churches and Mycenaean palaces, Peloponnese echoes the ancient cultures and events from its extensive history. Among these ancient ruins is Olympia, where the first Olympic Games were hosted in honor of Zeus.
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Peloponnese" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/greece/delphi.jpg" class="card-img-top" alt="Delphi">
+              <div class="card-body">
+                <h5 class="card-title">Delphi</h5>
+                <p class="card-text">Second to the Acropolis in Athens, Delphi is Greece’s most popular archaeological site. Located about two and half hours from Athens along the slopes of the awe-inspiring Mount Parnassus, Delphi was once revered by the ancient Greeks as the center of the earth. Dedicated to the god, Apollo, Delphi was an important oracle.
+
+                  In ancient times, people would come to this sacred spot to inquire of the priestess for advice on a wide range of topics from farming to relationships and politics. Significant ruins and structures at Delphi include the Temple of Apollo, the Athenian Treasury, the theater and hippodrome that once hosted events of the ancient Pythian Games.</p>
+                <a href="https://en.wikipedia.org/wiki/Delphi" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/greece/meteora.jpg" class="card-img-top" alt="Meteora">
+              <div class="card-body">
+                <h5 class="card-title">Meteora</h5>
+                <p class="card-text">The Greek word meteora means “suspended in the air,” and this phrase aptly describes the spectacular cliffs that rise more than 1,200 feet (366 meters) into the air overlooking the villages of Kalambaka and Kastraki in the north central mainland of Greece.
+
+                  What makes these cliffs even more inspiring are the historic monasteries perched along the summits. Dating back to the 14th and 16th centuries, the monasteries at Meteora were built by monks seeking spiritual isolation and freedom from religious persecution.</p>
+                <a href="https://en.wikipedia.org/wiki/Meteora" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/greece/crete.jpg" class="card-img-top" alt="Crete">
+              <div class="card-body">
+                <h5 class="card-title">Crete</h5>
+                <p class="card-text">The largest of the Greek islands, Crete is a spacious land of pleasing contrasts where landscapes range from stunning coastline to rugged mountains and rolling countryside dotted with olive trees.
+
+                  Bustling metropolitan cities spread beyond to quiet villages centered around outdoor coffee shops. Steeped in history, Crete still bears archaeological traces of the many civilizations that inhabited it down through the centuries.</p>
+                <a href="https://en.wikipedia.org/wiki/Crete" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/greece/athens.jpg" class="card-img-top" alt="Athens">
+              <div class="card-body">
+                <h5 class="card-title">Athens</h5>
+                <p class="card-text">Inhabited for more than 3,000 years, Athens is widely known as the cradle of Western civilization and the birthplace of democracy. The city presents a confusing blend of historical and modern features. Athens is famous for its archaeological ruins and monuments such as the famous Acropolis, the Parthenon, the Ancient Agora and the Theatre of Dionysos just to name a few.
+
+                  However, Athens is not just about ancient ruins. This bustling city is also an important center for business, culture and nightlife.</p>
+                <a href="https://en.wikipedia.org/wiki/Athens" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/greece/greek_islands.jpg" class="card-img-top" alt="Greek Islands">
+              <div class="card-body">
+                <h5 class="card-title">Greek Islands</h5>
+                <p class="card-text">The beautiful and exotic Greek islands lure droves of tourists every year, making them one of the world’s top travel destinations. With more than 2,000 islands to choose from they may initially be bewildered by their number and variety. From gorgeous beaches, ancient ruins, colorful harbors and active volcanoes the Greek islands have it all.
+
+                  Part of the Cyclades group, Santorini is among the most picturesque islands and definitely one of the best places to visit in Greece. Also part of the Cyclades, Mykonos features a modern, cosmopolitan society blended with traditional whitewashed houses and maze-like streets. Located in the Aegean Sea near the coast of Turkey, Rhodes is the capital and largest island of the Dodecanese archipelago, popular for its great beaches and historical significance. The northernmost of Greece’s Ionian Islands, Corfu was controlled by many foreign powers, notably the Venetians and British, which is reflected in its culture and the architecture on the island.
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/List_of_islands_of_Greece" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+    <h3>Greece Map:</h3>
+    <img src="assets/greece/greece_map-1.jpg" alt="Greece map">
+    <p>Reference: <a href="https://www.touropia.com/best-places-to-visit-in-greece/">Touropia</a></p>
+</div>
+
+
+
+
+<!--Japan-->
+
+
+<div class="container my-4" *ngIf="optionValue=='Japan' " >
+  <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/japan/miyajima.jpg" class="card-img-top" alt="Miyajima">
+              <div class="card-body">
+                <h5 class="card-title">Miyajima</h5>
+                <p class="card-text">One of the most popular tourist destinations in the country, the small island of Miyajima lies in the northwest of Hiroshima Bay, surrounded by the Seto Inland Sea. Besides boasting one of the famed ‘Three Views of Japan,’ it is also home to some lovely scenery and a number of temples and shrines.
+
+                  Miyajima – or ‘Shrine Island’ – is just the popular nickname for the island of Itsukushima, which has long been considered a holy place. Dominating its interior are the scenic and sacred slopes of Mount Misen, where you can find various Buddhist temples, Shinto shrines, and a fantastic five-story pagoda. Its gentle hills and lush forests make for some excellent hiking, and you’ll often come across tame deer wandering freely around the island.
+                  
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Itsukushima" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/japan/kanazawa.jpg" class="card-img-top" alt="Kanazawa">
+              <div class="card-body">
+                <h5 class="card-title">Kanazawa</h5>
+                <p class="card-text">Located in the northwest of Ishikawa Prefecture, the historic city of Kanazawa lies between the wild waters of the Sea of Japan and the towering Japanese Alps. Long overlooked due to its remote setting, it is an increasingly popular destination and boasts a rich history, culture and heritage.
+
+                  In the center of the city, you can find a fantastic centuries-old castle to explore, as well as charming and well-preserved samurai and geisha districts. Their narrow alleys are lined by traditional houses, cosy tea shops, and a number of atmospheric temples and shrines. Kanazawa is also home to some great museums and the busy Omicho Market, renowned for its fresh seafood.
+                </p>
+                <a href="https://en.wikipedia.org/wiki/Kanazawa" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/japan/hiroshima.jpg" class="card-img-top" alt=" Hiroshima">
+              <div class="card-body">
+                <h5 class="card-title">Hiroshima</h5>
+                <p class="card-text">Hiroshima, located on Honshu Island, is younger than many Japanese cities, less than 500 years old, but its fate was forever sealed in history on August 6, 1945, when it became the first city in the world to have an atomic bomb dropped on it. Although more than 60 percent of the buildings in Hiroshima were destroyed, the city has managed to make an amazing recovery since that devastating blast. In fact, by 1974, the city had actually managed to double its pre-war population, and it has also become a popular tourist destination.
+                  
+                  
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Hiroshima" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/japan/kamakura.jpg" class="card-img-top" alt="Kamakura">
+              <div class="card-body">
+                <h5 class="card-title">Kamakura</h5>
+                <p class="card-text">Set on the scenic shores of Sagami Bay, with forest-coated hills surrounding it, Kamakura is a top-rated destination and lies just an hour-long train ride to the south of Tokyo. As it was once the capital of Japan, the coastal city is home to many important landmarks and a plethora of beautiful temples and shrines.
+
+                  Its defining symbol and most famous sight is the Great Buddha of Kamakura, which is 13.35 meters high. Made out of bronze, the mighty figure towers over its surroundings and is one of the city’s most famed and photographed attractions. The large Tsurugaoka Hachimangu Shrine also attracts crowds of visitors, as do the pretty and peaceful zen temples of Kenchoji and Engakuji.</p>
+                <a href="https://en.wikipedia.org/wiki/Kamakura" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/japan/nikko.jpg" class="card-img-top" alt="Nikko">
+              <div class="card-body">
+                <h5 class="card-title">Nikko</h5>
+                <p class="card-text">Located at the entrance to Nikko National Park, Nikko is set in a spectacular spot amid the mountains, with lush forests lying around it. Besides being famed for its scenery, the city boasts a wealth of important Shinto shrines and Buddhist temples and is located in Tochigi Prefecture.
+
+                  Impressively, Nikko is home to two mausoleums of Tokugawa Shoguns; these can be found at the extensive and extravagant Tosho-gu complex. Surrounded by towering cedars, the site showcases wonderful Edo-era architecture, with countless shrines, temples, and pagodas. While the complex is undoubtedly Nikko’s main attraction, two of its most famous and photographed sights are the centuries-old Shinkyo Bridge and twinkling Kegon Falls, both of which are rightfully lauded for their beauty.
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Nikk%C5%8D" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/japan/takayama.jpg" class="card-img-top" alt="Takayama">
+              <div class="card-body">
+                <h5 class="card-title">Takayama</h5>
+                <p class="card-text">Nestled away among the northern Japanese Alps of Central Honshu, the small city of Takayama is a very picturesque place. Famed for its traditional townscape, stunning riverside setting, and unique culture and customs, it is fast becoming one of the region’s most popular attractions.
+
+                  In its well-preserved historic quarter, visitors can find lots of exquisite architecture dating to the Edo period, as well as little sake breweries, boutiques, and fantastic old merchants’ homes. Shrines, temples and museums abound in Takayama, while numerous morning markets can be found near to the river. At the Hida Folk Village, you can watch artisans make local handicrafts and wander around a recreated mountain village, full of traditional thatched-roof farmhouses.</p>
+                <a href="https://en.wikipedia.org/wiki/Takayama,_Gifu" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/japan/hakone.jpg" class="card-img-top" alt="Hakone">
+              <div class="card-body">
+                <h5 class="card-title">Hakone</h5>
+                <p class="card-text">Boasting beautiful mountain scenery, relaxing hot springs, and a number of world-class art museums, Hakone is one of the most popular tourist destinations in Japan. Located just a short train ride to the southwest of Tokyo, the town lies on the shores of tranquil Lake Ashi, with iconic Mount Fuji rising in the distance.
+
+                  A pleasant and picturesque place, Hakone is home to many lonsens and ryokans, so visiting one of the bathhouses and staying in a traditional inn is a must when in town. In addition, exquisite sculptures and artworks can be found in its numerous galleries and museums, while small shops and boutiques sell locally made handicrafts.</p>
+                <a href="https://en.wikipedia.org/wiki/Hakone" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/japan/nara.jpg" class="card-img-top" alt="Nara">
+              <div class="card-body">
+                <h5 class="card-title">Nara</h5>
+                <p class="card-text">Nara, once known as Heijo, was the first permanent capital of Japan, established in 710. The capital was moved to Nagaoka in 784 when the government was threatened by powerful Buddhist monasteries. Located less than an hour from Kyoto, the city boasts a plethora of important and impressive historic sights, with countless temples and shrines.
+
+                  Most of its main attractions can be found in the gorgeous, green Nara Park, also home to the city’s multitude of tame deer that amble about asking tourists for food. Here you’ll find the multi-storey pagodas of Kofuku-ji and splendid stone lanterns of Kasuga Taisha, as well as a couple of lovingly landscaped Japanese gardens. The highlight, however, is Todai-ji Temple with its awe-inspiring architecture and enormous Great Buddha..</p>
+                <a href="https://en.wikipedia.org/wiki/Nara_(city)" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/japan/kyoto.jpg" class="card-img-top" alt="Kyoto">
+              <div class="card-body">
+                <h5 class="card-title">Kyoto</h5>
+                <p class="card-text">Kyoto today is the capital only of Kyoto prefecture, but it once served as the imperial capital of Japan for more than 1,000 years. If you’re interested in catching a glimpse of old Japan, Kyoto should definitely be on your itinerary. Because of its historical significance, this city was largely spared much of the destructive bombing that occurred throughout the rest of Japan during World War II. Located on central Honshu Island, this city of 1.5 million people, also boasts more than 1,000 temples and shrines, including one of the most photographed, the Golden Pavilion.</p>
+                <a href="https://en.wikipedia.org/wiki/Kyoto" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/japan/tokyo.jpg" class="card-img-top" alt="Tokyo">
+              <div class="card-body">
+                <h5 class="card-title">Tokyo</h5>
+                <p class="card-text">Travelers who like to mingle with people will love Tokyo. The Japanese capital’s metropolitan area is the most populous in the world. From viewing spring cherry blossoms in traditional gardens to the fish market at Tuskiji. Tokyo blends the ancient with the new, from shrines to karaoke bars.
+
+                  It’s hard to be bored in frenetic, fast-paced Tokyo where even a walk down the streets can be interesting. This city’s Shibuya intersection, for example, is famous for its controlled mob crossing; and it’s Harajuku neighborhood is known throughout the world for its amazing street fashion, including but definitely not limited to goth-Lolitas, punk or kawaii schoolgirls. Tokyo is also home to numerous shrines, including the most famous, the Meiji Shrine, and Sensoji Temple, one of its oldest.
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Tokyo" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+    <h3>Japan Map:</h3>
+    <img src="assets/japan/japan_map-1.jpg" alt="Japan map">
+    <p>Reference: <a href="https://www.touropia.com/best-places-to-visit-in-japan/">Touropia</a></p>
+</div>
+
+
+
+
+<!--Portugal-->
+
+
+<div class="container my-4" *ngIf="optionValue=='Portugal' " >
+  <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/portugal/coimbra.jpg" class="card-img-top" alt="Coimbra">
+              <div class="card-body">
+                <h5 class="card-title">Coimbra</h5>
+                <p class="card-text">A charming city situated by the Mondego River in Central Portugal, Coimbra is home to a treasure trove of historic sites, beautiful gardens, the country’s second style of fado music, and a lively culture that is centered around one of Europe’s oldest universities.
+
+                  One of the best things to do in Coimbra is to simply get lost and discover the many historic attractions from the stunning Old Cathedral to the Gothic Monastery of Santa Clara-a-Velha, which contains the tomb of Queen Isabel.
+                  
+                  
+                  </p>
+                <a href="https://www.britannica.com/place/Coimbra-Portugal" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/portugal/azores.jpg" class="card-img-top" alt="Azores">
+              <div class="card-body">
+                <h5 class="card-title">Azores</h5>
+                <p class="card-text">Lying in the middle of the Atlantic, the Azores archipelago is located around 1,500 kilometers off the west coast of continental Portugal. Volcanic in origin, its nine islands boast breathtaking landscapes that offer incredible outdoor recreation opportunities.
+
+                  Hiking around the islands is a delight as verdant valleys and mountains overlook scenic shorelines riddled with rugged cliffs, secluded coves, and pristine beaches. Among its most impressive sights are the towering Mount Pico – the highest peak in the archipelago – and the idyllic crater lake of Lagoa do Fogo.
+                </p>
+                <a href="https://www.britannica.com/place/Azores" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/portugal/aveiro.jpg" class="card-img-top" alt=" Aveiro">
+              <div class="card-body">
+                <h5 class="card-title">Aveiro</h5>
+                <p class="card-text">Hugging the country’s Atlantic Coast in Central Portugal, Aveiro is a bustling city often called “the Venice of Portgual” due to its picturesque setting of scenic canals connected by charming bridges and dotted with colorful gondolas and speed boats. Historic sites, gorgeous beaches and tasty cuisine also make Aveiro an attractive travel destination.
+
+                  The most enjoyable way to experience Aveiro is by walking, but tour boats and a free-use bicycle system are also available for getting around. Aveiro’s many sightseeing gems include the Aveiro Cathedral, the São Gonçalinho Chapel and the Convento de Jesus. These all offer lovely architecture and art works.
+                  
+                  
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Aveiro,_Portugal" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/portugal/evora.jpg" class="card-img-top" alt="Evora">
+              <div class="card-body">
+                <h5 class="card-title">Evora</h5>
+                <p class="card-text">Evora may be a small town in the Alentejo plains region of southern Portugal, but it packs huge tourist appeal. With a history dating back more than 2,000 years, Evora was once a flourishing city under Roman rule. Today, Evora is the capital of the Alentejo region, regarded for its well-preserved Old Town, which shelters more than 4,000 historic structures including the old Roman walls and temples.
+
+                  All of Evora’s main attractions lie within close distance of one another, making the city easy to explore by foot. A really enjoyable way to sightsee Evora is by a horse carriage ride, which can be found near the 13th century Cathedral of Evora, one of Portugal’s most important Gothic structures..</p>
+                <a href="https://www.britannica.com/place/Evora-Portugal" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/portugal/obidos.jpg" class="card-img-top" alt="Obidos">
+              <div class="card-body">
+                <h5 class="card-title">Obidos</h5>
+                <p class="card-text">Located on a hilltop in the Centro Region of western Portugal, Obidos is encircled by an old fortified wall. In the 8th century the Moors established a fortification on top of the hill. It was taken from the Moors by the first King of Portugal, Afonso Henriques, in 1148 and modified in the 14th century.
+
+                  Besides the wall, the magnificent medieval castle and historic center of Obidos make up the city’s main attraction and can easily be walked. A labyrinth of narrow, cobbled streets leads visitors along busy squares, inviting cafes, quaint shops, markets selling local handicrafts, and whitewashed houses spruced with colorful flowers.
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/%C3%93bidos,_Portugal" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/portugal/porto.jpg" class="card-img-top" alt="Porto">
+              <div class="card-body">
+                <h5 class="card-title">Porto</h5>
+                <p class="card-text">World famous for its production of fine port wine, the busy city of Porto sprawls along the hills overlooking the Douro River in northern Portugal, prized for both its natural and architectural beauty.
+
+                  Well-connected to other major cities, Porto provides a good public transport system of buses, metro and cable railway. At the heart of Porto is the charming pedestrian zone, the Ribeira, an atmospheric place on the river, buzzing in live music, cafes, restaurants and street vendors. Dominating this popular tourist setting is the Ponte Dom Luis, a metal, double-deck arch bridge that links Porto to Vila Nova de Gaia, well-known for its port wine cellars.</p>
+                <a href="https://www.britannica.com/place/Porto-Portugal" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/portugal/madeira.jpg" class="card-img-top" alt="Madeira">
+              <div class="card-body">
+                <h5 class="card-title">Madeira</h5>
+                <p class="card-text">Sporting the nickname “Floating Garden of the Atlantic,” Madeira Island is a fertile oasis in the Atlantic Ocean between Portugal and North Africa, popular for its lush green landscapes, flower gardens, wines and annual New Year celebrations, which feature one of the world’s largest displays of fireworks.</p>
+                <a href="https://en.wikipedia.org/wiki/Madeira" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/portugal/sintra.jpg" class="card-img-top" alt="Sintra">
+              <div class="card-body">
+                <h5 class="card-title">Sintra</h5>
+                <p class="card-text">Nestled in the foothills of the Sintra Mountains on the Lisbon Coast, just a day trip away from Portugal’s capital city, Sintra presents a spectacular setting of verdant hills, sprinkled with pretty villas, royal retreats, palaces and castles dating as far back as the 8th century. Prized by the Romans, Moors and Portuguese royalty, Sintra’s beauty even enchanted the famous poet, Lord Byron, to write of it in a personal letter, describing it as the most beautiful village in the world.</p>
+                <a href="https://www.britannica.com/place/Sintra" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/portugal/algarve.jpg" class="card-img-top" alt="Algarve">
+              <div class="card-body">
+                <h5 class="card-title">Algarve</h5>
+                <p class="card-text">Sunny Mediterranean climate, gorgeous beaches, picturesque towns, flower-clad hills, historic sites, fabulous cuisine and affordable costs are just some of the reasons that make the Algarve one of Portugal’s most popular tourist destinations. Located in the country’s southernmost region, the Algarve offers a feast for the eyes, from tranquil landscapes of olive groves, traditional whitewashed villages and lovely villas to the wild, windswept coast with its dramatic cliffs dotted with summer resorts.
+
+                  The Algarve is occupied by bustling cities and quaint towns alike, offering delights of cobbled streets, historic architecture and beautiful old churches. Faro is the region’s capital, and Lagos is the area’s hot spot for nightlife. Looped by orange groves, Silves is best known for its red sandstone castle, while Tavira is an elegant town packed with Renaissance monuments, bridges and castles.</p>
+                <a href="https://www.britannica.com/place/Algarve" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/portugal/lisbon.jpg" class="card-img-top" alt="Lisbon">
+              <div class="card-body">
+                <h5 class="card-title">Lisbon</h5>
+                <p class="card-text">Stretching along the banks of the Tagus River near the Atlantic Ocean, Portugal’s capital and largest city winds upward among seven steep hills, forming an enchanting destination of warm weather, alluring alleys, quaint shops, Gothic cathedrals, impressive bridges and colorful neighborhoods, reverberating in traditional fado music.
+
+                  One of the world’s oldest cities, Lisbon’s biggest appeal lies in its diverse neighborhoods, or bairros. Among the most popular of these districts is Belém, favored for its royal palaces, gardens and historic monuments and landmarks such as the Jeronimos Monastery, one of Portugal’s most visited sites. The city’s oldest district is Alfama, an old Moorish quarter, distinct for its maze of cobblestone streets, rustic architecture, St. George’s Castle and fado restaurants and bars.
+                  
+                  </p>
+                <a href="https://www.britannica.com/place/Lisbon" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+    <h3>Portugal Map:</h3>
+    <img src="assets/portugal/portugal_map-1.jpg" alt="Japan map">
+    <p>Reference: <a href="https://www.touropia.com/best-places-to-visit-in-portugal/">Touropia</a></p>
+</div>
+
+
+
+<!--Sri Lanka-->
+
+
+<div class="container my-4" *ngIf="optionValue=='Sri lanka' " >
+  <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/srilanka/bentota.jpg" class="card-img-top" alt="Bentota">
+              <div class="card-body">
+                <h5 class="card-title">Bentota</h5>
+                <p class="card-text">With coconut palms swaying in the breeze, Bentota is a multi-tasking tourist town on the southern coast of Sri Lanka. One of Sri Lanka’s most popular beaches, Bentota is first an Indian Ocean beach resort where water activities, such as surfing, sailing and snorkeling, abound.
+
+                  When it’s time for a change of pace, you can visit a sea turtle hatchery and conservation center, which monitors five of the seven species of sea turtles in the world. You can also take in a 17th century fortress, lush gardens and an old Buddhist temple that dates from medieval times.
+                  
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Bentota" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/srilanka/nuwara_eliya.jpg" class="card-img-top" alt="Nuwara Eliya">
+              <div class="card-body">
+                <h5 class="card-title">Nuwara Eliya</h5>
+                <p class="card-text">Sri Lanka is famous for its tea. What better place to learn more about tea than the source itself: Nuwara Eliya. With a temperate climate and elevation of 1,900 meters (6,100 feet), Nuwara Eliya is the country’s tea production capital.
+                </p>
+                <a href="https://www.britannica.com/place/Nuwara-Eliya" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/srilanka/anuradhapura.jpg" class="card-img-top" alt="Anuradhapura">
+              <div class="card-body">
+                <h5 class="card-title">Anuradhapura</h5>
+                <p class="card-text">Anuradhapura is an ancient sacred city that was established around a cutting from Buddha’s fig tree. Dating back to the third century BC, Anuradhapura was established by the founder of an order of Buddhist nuns.
+                  
+                  
+                  
+                  </p>
+                <a href="https://www.britannica.com/place/Anuradhapura-Sri-Lanka" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/srilanka/colombo.jpg" class="card-img-top" alt="Colombo">
+              <div class="card-body">
+                <h5 class="card-title">Colombo</h5>
+                <p class="card-text">Colombo has been the commercial capital of Sri Lanka for more than 2,000 years when its large natural harbor made it popular with ancient trades from Italy to China. It’s often referred to as the country’s capital, though the legislative capital is located in a nearby city.</p>
+                <a href="https://www.britannica.com/place/Colombo" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/srilanka/yala_national_park.jpg" class="card-img-top" alt="Yala National Park">
+              <div class="card-body">
+                <h5 class="card-title">Yala National Park</h5>
+                <p class="card-text">Animals rule the roost, the ground and the sky at Yala National Park, a wildlife sanctuary about 240 km (150 miles) from Colombo. Yala offers a plethora of things to do. Your visit begins with a safari to see animals, including elephants, water buffalo and leopards, found here in higher density than any other place in the world. Note: the park closes for September’s leopard breeding season.
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Yala_National_Park" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/srilanka/mirissa.jpg" class="card-img-top" alt="Mirissa">
+              <div class="card-body">
+                <h5 class="card-title">Mirissa</h5>
+                <p class="card-text">If you’re looking to holiday in a tropical paradise, Mirissa just might be the answer to your dreams: swaying coconut palms, beautiful golden sand beaches, days spent rocking away in a hammock. It doesn’t get much better than this.</p>
+                <a href="https://en.wikipedia.org/wiki/Mirissa" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/srilanka/polonnaruwa.jpg" class="card-img-top" alt="Polonaruwwa">
+              <div class="card-body">
+                <h5 class="card-title">Polonaruwwa</h5>
+                <p class="card-text">The terms “beauty” and “beast” usually go together well, except at Polonnaruwa where beauty goes better with “ruins.” The second oldest kingdom in Sri Lanka, Polonnaruwa is known for the ruins of this ancient garden city.</p>
+                <a href="https://en.wikipedia.org/wiki/Polonnaruwa" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/srilanka/kandy.jpg" class="card-img-top" alt="Kandy">
+              <div class="card-body">
+                <h5 class="card-title">Kandy</h5>
+                <p class="card-text">Kandy, the second largest city in Sri Lanka, is the gateway to the Central Highlands and its tropical plantations that grow both tea and rubber. If you’re driving from Colombo, you’ll pass by rubber plantations on a road that is considered one of the country’s most scenic.</p>
+                <a href="https://en.wikipedia.org/wiki/Kandy" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/srilanka/galle.jpg" class="card-img-top" alt="Galle">
+              <div class="card-body">
+                <h5 class="card-title">Galle</h5>
+                <p class="card-text">Galle’s most famous attraction is its 17th century fort built by Dutch colonists. Sitting on a promontory overlooking the Indian ocean, the fort is known for its architectural style. Galle is considered a prime example of a fortified city.</p>
+                <a href="https://en.wikipedia.org/wiki/Galle" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/srilanka/sigiriya.jpg" class="card-img-top" alt="Sigiriya">
+              <div class="card-body">
+                <h5 class="card-title">Sigiriya</h5>
+                <p class="card-text">Wannabe archaeologists need to put Sigiriya on their list of must-see places to visit in Sri Lanka. This ancient city is built on a steep slope, topped by a plateau almost 180 meters (600 feet) high.
+
+                  This plateau is known as Lion’s Rock as it oversees the jungles below. Access to the site is through staircases and rooms emanating from the lion’s mouth. You’ll also see ponds, gardens and fountains. Pretty cool!
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Sigiriya" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+    <h3>Sri lanka Map:</h3>
+    <img src="assets/srilanka/places_sri_lanka_map.jpg" alt="Sri lanka map">
+    <p>Reference: <a href="https://www.touropia.com/best-places-to-visit-in-sri-lanka/">Touropia</a></p>
+</div>
+
+
+<!--Italy-->
+
+
+<div class="container my-4" *ngIf="optionValue=='Italy' " >
+  <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/italy/pisa.jpg" class="card-img-top" alt="Pisa">
+              <div class="card-body">
+                <h5 class="card-title">Pisa</h5>
+                <p class="card-text">Located along the Arno River in the northwestern region of Tuscany, the city of Pisa still bears the striking remnants of its former golden days as a commercial empire during the Middle Ages. While the Leaning Tower is a must see, visiting this city only to take a photograph of it’s most popular landmark is like looking at one tree and missing the whole forest. Pisa is so much more than just the Leaning Tower.
+                  
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Pisa" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/italy/italian_lake_district.jpg" class="card-img-top" alt="Italian Lake district">
+              <div class="card-body">
+                <h5 class="card-title">Italian Lake district</h5>
+                <p class="card-text">The Italian Lake District stretches across Northern Italy. The southern ends of most of the lakes are relatively flat but the northern ends are mountainous as the lakes reach deep into the Alps. Popular with tourists for over 100 years, the Italian Lakes combine good weather with attractive scenery.
+                </p>
+                <a href="https://wikitravel.org/en/Italian_Lake_District" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/italy/sicily.jpg" class="card-img-top" alt="Sicily">
+              <div class="card-body">
+                <h5 class="card-title">Sicily</h5>
+                <p class="card-text">The largest island in the Mediterranean, Sicily lies just across from the southern tip of Italy, on the narrow Strait of Messina. Due to its location, it has long acted as a crossroads, so is very distinct from the rest of the country in terms of its history, culture, and cuisine.
+                  
+                  
+                  
+                  </p>
+                <a href="https://wikitravel.org/en/Sicily" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/italy/siena.jpg" class="card-img-top" alt="Siena">
+              <div class="card-body">
+                <h5 class="card-title">Siena</h5>
+                <p class="card-text">Established upon three hills in the heart of Tuscany, Siena offers tourists a step back into the Middle Ages with its well-preserved historic center and medieval horse racing tradition, famously known as Il Palio. Formerly a wealthy city, the historic center of Siena is one of the most popular places to go in Italy as it still retains many of its stunning works of art and architecture from that time period.</p>
+                <a href="https://wikitravel.org/en/Siena" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/italy/cinque_terre.jpg" class="card-img-top" alt="Cinque terre">
+              <div class="card-body">
+                <h5 class="card-title">Cinque terre</h5>
+                <p class="card-text">Five quaint fishing villages awash with colors of blue, yellow and pink all hug cliff sides that slope down to the sea. These villages and the surrounding green hills make up the Cinque Terre National Park, one of Italy’s popular tourist destinations. Located in Italy’s northwestern coastal region of Liguria, the villages of Cinque Terre feature some of the country’s most beautiful landscapes that include wine terraces dating back to hundreds of years.
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Cinque_Terre" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/italy/amalfi_coast.jpg" class="card-img-top" alt="Amalfi Coast">
+              <div class="card-body">
+                <h5 class="card-title">Amalfi Coast</h5>
+                <p class="card-text">Situated in Italy’s southwestern region of Campania, the Amalfi Coast is known for its extraordinary beauty that makes it one of Italy’s top tourist destinations. Stretching 30 miles along the southern side of the Sorrento Peninsula, the Amalfi Coast is prized for its picturesque coastline that features shimmering bays, craggy cliffs, lemon tree gardens, multicolored villas and ritzy resorts.</p>
+                <a href="https://en.wikipedia.org/wiki/Amalfi_Coast" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/italy/pompeii.jpg" class="card-img-top" alt="Pompeii">
+              <div class="card-body">
+                <h5 class="card-title">Pompeii</h5>
+                <p class="card-text">One of Italy’s most visited tourist destinations, Pompeii is a famous Roman city which was buried under several feet of volcanic ash for nearly 1,700 years after the cataclysmic eruption of Mt. Vesuvius. Excavation of Pompeii began in 1748, and the site is yet to be totally unearthed. The site is located near the modern city of Naples.
+
+                </p>
+                <a href="https://en.wikipedia.org/wiki/Pompeii" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/italy/venice.jpg" class="card-img-top" alt="Venice">
+              <div class="card-body">
+                <h5 class="card-title">Venice</h5>
+                <p class="card-text">One of Italy’s top travel destinations, Venice is a unique city in that is built upon a lagoon surrounded by the Adriatic Sea. Located in northeastern Italy, Venice is an archipelago of 118 islands all connected by hundreds of beautiful bridges and scenic canals. Of the canals, the Grand Canal is most famous and divides the city into two sections. Picturesque waterways and historic architecture make Venice one of the most romantic cities in the world.</p>
+                <a href="https://en.wikipedia.org/wiki/Venice" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row my-4">
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/italy/florence.jpg" class="card-img-top" alt="Florence">
+              <div class="card-body">
+                <h5 class="card-title">Florence</h5>
+                <p class="card-text">The capital of Tuscany, Florence is often described as a colossal outdoor museum because of its mass of art and architectural treasures. Internationally observed as the birthplace of Italian Renaissance, Florence is also credited with propagating many artists, inventors, writers, scientists and explorers as well as inventing opera and the florin currency, which lifted Europe from the Dark Ages. Additionally, Florence is known as the home of the wealthy and powerful Medici dynasty that produced several kings and popes, impacting the entire world in a number of ways culturally, economically and politically.</p>
+                <a href="https://en.wikipedia.org/wiki/Florence" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+      <div class="col">
+          <div class="card" style="width: 35rem;">
+              <img src="assets/italy/rome.jpg" class="card-img-top" alt="Rome">
+              <div class="card-body">
+                <h5 class="card-title">Rome"</h5>
+                <p class="card-text">Formerly the capital of the Roman Empire, Rome today is the government seat and capital city of Italy. Located in the country’s central region of Lazio, Rome is a vast and complex city that is both historic and modern at the same time. Best known for housing ancient Roman structures and the Vatican City, Rome has endured for more than 2,500 years as an important center for culture, power and religion.
+                  
+                  </p>
+                <a href="https://en.wikipedia.org/wiki/Rome" class="btn btn-primary">Check it out!</a>
+              </div>
+            </div>
+      </div>
+    </div>
+    <h3>Italy Map:</h3>
+    <img src="assets/italy/italy_map-1.jpg" alt="Italy map">
+    <p>Reference: <a href="https://www.touropia.com/best-places-to-visit-in-italy/">Touropia</a></p>
+</div>
